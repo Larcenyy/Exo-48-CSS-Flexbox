@@ -1,0 +1,28 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+.content{
+    margin: 15rem;
+    padding: 15rem;
+    display: flex;
+    gap: 1rem;
+    border: 5px solid black;
+}
+.box{
+    display: flex;
+    width: 50%;
+    padding: 4rem;
+}
+.box:nth-child(1){
+    background: lightgreen;
+}
+.box:nth-child(2){
+    background: lightblue;
+}

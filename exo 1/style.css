@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html body{
+
+}
+
+.container{
+    background: lightgray;
+    width: 20vw;
+    height: 200px;
+    display: flex;
+    align-items: stretch;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.container div:nth-child(1){
+    background: #68f168;
+}
+.container div:nth-child(2){
+    background: #7a7ade;
+}
+.container div:nth-child(3){
+    background: #f37ef3;
+}
+.container div:nth-child(4){
+    background: #ecbe6b;
+}
+.container div:nth-child(5){
+    background: #e55151;
+}
+.container div:nth-child(6){
+    background: #68f168;
+}
+.container div:nth-child(7){
+    background: #7a7ade;
+}
+.container div:nth-child(8){
+    background: #f37ef3;
+}
+
+.container2{
+    background: lightgray;
+    padding: 1rem;
+    width: 20%;
+}
+.container2 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.small-box{
+    width: 25%;
+    height: 100px;
+}
+.container2 .box-content .small-box:nth-child(1){
+    background: #68f168;
+}
+.container2 .small-box:nth-child(2){
+    background: #7a7ade;
+}
+.container2 .small-box:nth-child(3){
+    background: #f37ef3;
+}
+.container2 .small-box:nth-child(4){
+    background: #ecbe6b;
+}
+.container2 .small-box:nth-child(5){
+    background: #e55151;
+}
+.container2 .small-box:nth-child(6){
+    background: #68f168;
+}
+.container2 .small-box:nth-child(7){
+    background: #7a7ade;
+}
+.container2 .small-box:nth-child(8){
+    background: #f37ef3;
+}
+
+.container3{
+    background: lightgray;
+    padding: 1rem;
+    width: 20%;
+}
+
+.container3 div {
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+    justify-content: center;
+    flex-grow: 2;
+    flex-wrap: wrap;
+}
+.container3 .small-box{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.small-box{
+    display: flex;
+}
+.container3 .box-content .small-box:nth-child(1){
+    background: #68f168;
+}
+.container3 .small-box:nth-child(2){
+    background: #7a7ade;
+}
+.container3 .small-box:nth-child(3){
+    background: #f37ef3;
+}
+.container3 .small-box:nth-child(4){
+    background: #ecbe6b;
+}
+.container3 .small-box:nth-child(5){
+    background: #e55151;
+}
+.container3 .small-box:nth-child(6){
+    background: #68f168;
+}
+.container3 .small-box:nth-child(7){
+    background: #7a7ade;
+}
+.container3 .small-box:nth-child(8){
+    background: #f37ef3;
+}
